@@ -91,10 +91,45 @@
 // }
 // sum();
 // Réponse11;
-function nbrEleve(eleve)
-eleve =parseInt(prompt('Nbrs élèves'));
-
-for (i=0; i< number ; i++){
-    let result = parseInt(prompt('Notes élèves'));
-}
-nbrEleve()
+// function nbr(){
+//     let eleve = parseInt(prompt('Combien y a t-il d\'élèves'));
+//     let array = [];
+//     for (let i = 1; i < eleve; i++) {
+//         let notes = parseInt(prompt('Note de chaque élève'));
+//         array.push(notes);
+//     }
+//     console.log(array);
+// }
+// note();
+// Réponse12;
+// function nbr() {
+//     let eleve = parseInt(prompt('Combien y a t-il d\'élèves'));
+//     let array = [];
+//     for (let i = 0; i < eleve; i++) {
+//         let notes = parseInt(prompt('Note de chaque élève'));
+//         array.push(notes);
+//         let moyenne = array.filter(notes => notes >= 10)
+//         console.log('Le nombre d\'élèves au dessus de la moyenne est de ' + moyenne.length);
+//     }
+// }
+// note();
+// Réponse13;
+// function grdvaleur() {
+//     let nbre = [[0, 18], [1, 45], [45, 48], [-3, 2]]
+//     let high = 0;
+//     for (let i = 1; i < 4; i++) {
+//         for (let j = 1; j < 2; j++){
+//             if (nbre[i][j] > high) {
+//                 high = nbre[i][j];
+//             }
+//         }
+//     }
+//     console.log(high);
+// }
+// grdvaleur();
+// Réponse14;
+// function compter() {
+//     let mot = prompt('Entrez un mot')
+//     console.log(mot.length);
+// }
+// compter();
